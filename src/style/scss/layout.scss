@@ -1,0 +1,35 @@
+// vuepress的导航小于720px的时候就会折叠，所以这里全部采用720px之下就换成移动端的样式
+@media screen and (min-width: 720px) { // PC端
+  .main {
+    .hongme-content {
+      flex-direction: row;
+      max-width: 1000px;
+      margin: 2.5rem;
+    }
+    .part-left {
+      max-width: 37.5rem;
+      .tag {
+        top: 0;
+        left: 0;
+      }
+    }
+    .part-right {
+      max-width: 50rem;
+    }
+  }
+}
+
+@media screen and (max-width: 719.998px) { // 移动端
+  .main {
+    .hongme-content {
+      flex-direction: column;
+    }
+    .part-left {
+      margin-bottom: $margin-4;
+      .tag {
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+}

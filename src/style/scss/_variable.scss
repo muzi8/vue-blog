@@ -1,0 +1,35 @@
+/*
+* color
+*/
+$theme-pink: #ffdaf4;
+$theme-red: #f66754;
+$theme-orange: #FD9A28;
+$theme-yellow: #ffec1a;
+$theme-green: #00be70;
+$theme-mintGreen: #95ECD6;
+$theme-blue:#26A7FF;
+$theme-lightBlue: #6BB8FF;
+$theme-indigo: #405FC1;
+$theme-purple: #A269EF;
+
+/*
+* font
+*/
+@mixin font-title($size:1.25rem, $color:#333) {
+  font-size: $size; // 20px
+  color: $color;
+  font-weight: 600;
+} ;
+@mixin font-muted($size:1rem, $color:#666) {
+  font-size: $size; // 16px
+  color: $color;
+}
+/*
+* margin 、 padding
+*/
+$margin-0: 0;
+$margin-1: 0.625rem; // 10px
+$margin-2: 1.25rem; // 20px
+$margin-3: 1.875rem; // 30px
+$margin-4: 2.5rem; // 40px
+$margin-5: 3.125rem; // 50px

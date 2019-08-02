@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import Blog from './demo.md'
+import Blog from '../posts/demo.md'
 export default {
   components: {
     Blog

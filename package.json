@@ -10,6 +10,7 @@
   "dependencies": {
     "@tianyong90/vue-markdown-loader": "0.0.3",
     "core-js": "^2.6.5",
+    "normalize-scss": "^7.0.1",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
